@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dailyWeather {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: purple;
+
+}
+
+.dailyWeather img {
+    float: right;
+}
+
+.dailyWeather p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dailyWeather h2,
+.dailyWeather h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
