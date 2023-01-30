@@ -2,25 +2,73 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.dailyWeather {
-    border: 1px solid gray;
-    border-radius: 10px;
+/* Header */
+
+header {
+    background-color: rgb(146, 8, 238);
+}
+
+div.title {
+    
+    color: white;
+    text-align: center;
+}
+
+div.title h1 {
     padding: 10px;
+}
+
+/* Main content */
+
+main.dashboard {
+    background-color: rgb(247, 247, 247);
+}
+
+/* Left Sidebar */
+
+div.recent-searches h2 {
+    font-size: 1.2rem;
+}
+
+div.cityList {
+    margin-top: 20px;
+}
+
+div.city {
+    padding: 10px;
+}
+
+div.cityName {
+    background-color: rgb(161, 94, 248);
+    color: white;
+    
+}
+
+/* Weather Data */
+
+div.currentWeather {
     margin-bottom: 20px;
-    background-color: purple;
-
+    background-color: rgb(245, 198, 95);
 }
 
-.dailyWeather img {
-    float: right;
+div.currentWeather h2,
+div.currentWeather h3 {
+    font-size: 1.3rem;
+    margin: 10px;
 }
 
-.dailyWeather p {
-    margin-top: 5px;
-    margin-bottom: 5px;
+span#uv-index {
+    color: white;
 }
-.dailyWeather h2,
-.dailyWeather h3 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+div.fiveDay h2 {
+    font-size: 1.2rem;
+}
+
+div.fiveDay p {
+    font-size: .8rem;
+}
+
+div.fiveDay p.card-title {
+    font-weight: bold;
 }
