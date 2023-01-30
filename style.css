@@ -2,8 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Header */
-
 header {
     background-color: rgb(146, 8, 238);
 }
@@ -21,7 +19,7 @@ div.title h1 {
 /* Main content */
 
 main.dashboard {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(193, 146, 247);
 }
 
 /* Left Sidebar */
@@ -48,13 +46,14 @@ div.cityName {
 
 div.currentWeather {
     margin-bottom: 20px;
-    background-color: rgb(245, 198, 95);
+    background-color: rgba(245, 198, 95, 0.664);
 }
 
 div.currentWeather h2,
 div.currentWeather h3 {
     font-size: 1.3rem;
     margin: 10px;
+    font-weight: bold;
 }
 
 span#uv-index {
@@ -63,12 +62,15 @@ span#uv-index {
 
 div.fiveDay h2 {
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 div.fiveDay p {
     font-size: .8rem;
+    font-weight: bold;
 }
 
 div.fiveDay p.card-title {
+    font-weight: bold;
     font-weight: bold;
 }
